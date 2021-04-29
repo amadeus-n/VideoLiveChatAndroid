@@ -1,0 +1,2 @@
+com/videoment/videochatroom/BuildConfig.java
+ com.videoment.videochatroom.BuildConfig

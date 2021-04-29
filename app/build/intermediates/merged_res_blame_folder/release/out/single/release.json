@@ -1,0 +1,150 @@
+[
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\drawable_round_corner_white.xml.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\drawable\\round_corner_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\drawable_bg_chat_text_input_dark.xml.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\drawable\\bg_chat_text_input_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\layout_item_chat_list.xml.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\layout\\item_chat_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\layout-land_video_player_detail.xml.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\layout-land\\video_player_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\layout_video_player.xml.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\layout\\video_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\layout_chat_reply.xml.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\layout\\chat_reply.xml"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\layout_video_comment.xml.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\layout\\video_comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\layout_item_chat_reply.xml.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\layout\\item_chat_reply.xml"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\layout_popup_window_message_reaction.xml.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\layout\\popup_window_message_reaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\layout-land_video_comment.xml.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\layout-land\\video_comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\drawable_bg_item_chat_selector.xml.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\drawable\\bg_item_chat_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\drawable_chat_bg_round_small_corner_white.xml.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\drawable\\chat_bg_round_small_corner_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\drawable_bg_corner_chat_list_item.xml.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\drawable\\bg_corner_chat_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\drawable_round_corner.xml.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\drawable\\round_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\layout_video_player_detail.xml.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\layout\\video_player_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_close_reply.xml.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\drawable\\ic_close_reply.xml"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\layout-land_chat_text_input_dark.xml.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\layout-land\\chat_text_input_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\drawable-v24_ic_action_send.png.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\drawable-v24\\ic_action_send.png"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\layout_chat_list.xml.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\layout\\chat_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\drawable_background_corner_reaction.xml.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\drawable\\background_corner_reaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\layout_chat_text_input_dark.xml.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\layout\\chat_text_input_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_preview.xml.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\drawable\\ic_preview.xml"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\layout_exoplay_custom_ui.xml.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\layout\\exoplay_custom_ui.xml"
+    },
+    {
+        "merged": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\napha\\AndroidStudioProjects\\VideoComment\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    }
+]

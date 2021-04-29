@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.EkoCommunications:AmityRxLifeCycle:1.0.0-alpha01@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e6b44b2e953f36ea39f56bdcaef9e476/jetified-AmityRxLifeCycle-1.0.0-alpha01/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e6b44b2e953f36ea39f56bdcaef9e476/jetified-AmityRxLifeCycle-1.0.0-alpha01/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e6b44b2e953f36ea39f56bdcaef9e476/jetified-AmityRxLifeCycle-1.0.0-alpha01/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

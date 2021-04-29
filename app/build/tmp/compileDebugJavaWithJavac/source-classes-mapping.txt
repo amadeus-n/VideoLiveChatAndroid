@@ -1,0 +1,4 @@
+com/videoment/videocomment/DataBindingTriggerClass.java
+ com.videoment.videocomment.DataBindingTriggerClass
+com/videoment/videocomment/BuildConfig.java
+ com.videoment.videocomment.BuildConfig

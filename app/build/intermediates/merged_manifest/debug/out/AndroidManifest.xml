@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.videoment.videocomment"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.VideoComment"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.videoment.videocomment.StartActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.videoment.videochatroom.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:supportsPictureInPicture="true" />
+        <activity
+            android:name="com.ekoapp.ekosdk.uikit.community.newsfeed.activity.EkoMyFeedActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.EkoApp" />
+        <activity
+            android:name="com.ekoapp.ekosdk.uikit.community.newsfeed.activity.EkoEditPostActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.EkoApp" />
+        <activity
+            android:name="com.ekoapp.ekosdk.uikit.community.edit.EkoCommunityProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.EkoApp" />
+        <activity
+            android:name="com.ekoapp.ekosdk.uikit.community.profile.activity.EkoEditUserProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.EkoApp" />
+        <activity
+            android:name="com.ekoapp.ekosdk.uikit.community.members.EkoCommunityMemberSettingsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.EkoApp" />
+        <activity
+            android:name="com.ekoapp.ekosdk.uikit.community.setting.EkoCommunitySettingsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.EkoApp" />
+        <activity
+            android:name="com.ekoapp.ekosdk.uikit.community.explore.activity.EkoCategoryCommunityListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.EkoApp" />
+        <activity
+            android:name="com.ekoapp.ekosdk.uikit.community.mycommunity.activity.EkoMyCommunityActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.EkoApp" />
+        <activity
+            android:name="com.ekoapp.ekosdk.uikit.community.profile.activity.EkoUserProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.EkoApp" />
+        <activity
+            android:name="com.ekoapp.ekosdk.uikit.community.explore.activity.EkoCategorySelectionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.EkoApp" />
+        <activity
+            android:name="com.ekoapp.ekosdk.uikit.community.explore.activity.EkoCategoryListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.EkoApp" />
+        <activity
+            android:name="com.ekoapp.ekosdk.uikit.community.detailpage.EkoCommunityPageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.EkoApp" />
+        <activity
+            android:name="com.ekoapp.ekosdk.uikit.community.home.activity.EkoCommunityHomePageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.EkoApp" />
+        <activity
+            android:name="com.ekoapp.ekosdk.uikit.community.newsfeed.activity.EkoPostTargetSelectionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.EkoApp" />
+        <activity
+            android:name="com.ekoapp.ekosdk.uikit.community.newsfeed.activity.EkoPostDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.EkoApp" />
+        <activity
+            android:name="com.ekoapp.ekosdk.uikit.community.newsfeed.activity.EkoCreatePostActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.EkoApp" />
+        <activity
+            android:name="com.ekoapp.ekosdk.uikit.community.ui.view.EkoSelectMembersListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.EkoApp" />
+        <activity
+            android:name="com.ekoapp.ekosdk.uikit.community.ui.view.EkoCommunityCreateActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.EkoApp" />
+        <activity
+            android:name="com.ekoapp.ekosdk.uikit.community.newsfeed.activity.EkoEditCommentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.EkoApp" />
+        <activity
+            android:name="com.ekoapp.ekosdk.uikit.chat.editMessage.EkoEditMessageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.EkoApp" />
+        <activity
+            android:name="com.ekoapp.ekosdk.uikit.chat.messages.EkoMessageListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.EkoApp"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.ekoapp.ekosdk.uikit.chat.home.EkoChatHomePageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.EkoApp" />
+        <activity
+            android:name="com.ekoapp.ekosdk.uikit.imagepreview.EkoImagePreviewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ImagePreviewTheme" />
+
+        <provider
+            android:name="com.ekoapp.ekosdk.uikit.utils.UiKitProvider"
+            android:authorities="com.videoment.videocomment.UikitCommonProvider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path" />
+        </provider>
+        <provider
+            android:name="com.ekoapp.ekosdk.internal.init.EkoSdkInitProvider"
+            android:authorities="com.videoment.videocomment.ekosdk.init.provider"
+            android:exported="false"
+            android:initOrder="10000" />
+
+        <service
+            android:name="com.ekoapp.gotevupstra.uploadservice.UploadService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <provider
+            android:name="com.ekoapp.ekosdk.uikit.logging.UiKitProvider"
+            android:authorities="com.videoment.videocomment.UikitLoggingProvider"
+            android:exported="false" />
+
+        <activity android:name="com.zhihu.matisse.ui.MatisseActivity" />
+        <activity android:name="com.zhihu.matisse.internal.ui.AlbumPreviewActivity" />
+        <activity android:name="com.zhihu.matisse.internal.ui.SelectedPreviewActivity" />
+
+        <provider
+            android:name="com.ekoapp.push.PushInitProvider"
+            android:authorities="com.videoment.videocomment.push.init.provider"
+            android:exported="false"
+            android:initOrder="10000" />
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.videoment.videocomment.com.squareup.picasso"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.videoment.videocomment.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+            android:theme="@android:style/Theme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+            android:theme="@android:style/Theme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
+    </application>
+
+</manifest>
