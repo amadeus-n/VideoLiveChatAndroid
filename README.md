@@ -132,7 +132,6 @@ message.react()
      
 ```
 3. Flag on message
-4. 
 ```
 EkoMessage message;
 EkoMessageFlagger flagger = message.report();
