@@ -19,11 +19,15 @@ repositories {
 ```
 
 ### Import module to your project in build.gradle (Module level)
+
+```
 dependencies {
     implementation project(path: ':videochatroom')
 }
+```
 ### Call module using
 
+```
 val videoChatIntent = Intent(this, com.videoment.videochatroom.MainActivity::class.java)
         videoChatIntent.putExtra(API_KEY, "apiKey")
         videoChatIntent.putExtra(CHANNEL_ID, "channelID")
@@ -33,6 +37,8 @@ val videoChatIntent = Intent(this, com.videoment.videochatroom.MainActivity::cla
         videoChatIntent.putExtra(VIDEO_URL, "videoUrl")
         startActivity(videoChatIntent)
         this.finish()
+
+```
 
 ## Amity Chat SDK Installation Guide
 ### Setup steps for the SDK 
