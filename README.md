@@ -6,7 +6,7 @@
 
 ## Import Module
 ```
-import module videochatroom into your project.
+In your Android Studio go to File -> New -> Import Module
 ```
 
 ## Add maven in your build.gradle (project level)
