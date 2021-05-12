@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.EkoCommunications.UpstraUIKitAndroid:upstra-uikit:1.11.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/336f009d55bc188167867e9a3a0f492c/jetified-upstra-uikit-1.11.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/336f009d55bc188167867e9a3a0f492c/jetified-upstra-uikit-1.11.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/336f009d55bc188167867e9a3a0f492c/jetified-upstra-uikit-1.11.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0a3bdf5961a12f668ee1c157b8769953/jetified-upstra-uikit-1.11.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0a3bdf5961a12f668ee1c157b8769953/jetified-upstra-uikit-1.11.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0a3bdf5961a12f668ee1c157b8769953/jetified-upstra-uikit-1.11.1/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

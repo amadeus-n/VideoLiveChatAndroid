@@ -11,7 +11,6 @@ import com.ekoapp.ekosdk.EkoClient
 import com.videoment.videochatroom.chatfragment.ChatHomeFragment
 import com.videoment.videochatroom.videoplayer.HomeVideoFragment
 import io.reactivex.android.schedulers.AndroidSchedulers
-import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers
 import org.json.JSONObject
 
@@ -23,7 +22,6 @@ class MainActivity : AppCompatActivity(R.layout.video_comment) {
     val CHANNEL_ID = "channelID"
     val USER_ID = "userId"
     val USER_NAME = "userName"
-    val PROFILE_IMAGE = "profileImage"
     val API_KEY = "apiKey"
 
     var apikey = ""
@@ -33,7 +31,6 @@ class MainActivity : AppCompatActivity(R.layout.video_comment) {
     var videoURL = ""
     var videoName = ""
     var videoCount = 0
-    lateinit var ekoDisposable: Disposable
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -46,7 +43,6 @@ class MainActivity : AppCompatActivity(R.layout.video_comment) {
         videoName = intent.getStringExtra(VIDEO_NAME) ?: ""
 
         initEkoClient()
-        initChatChannel()
         initFragment(savedInstanceState)
 
     }
@@ -72,6 +68,7 @@ class MainActivity : AppCompatActivity(R.layout.video_comment) {
         channelObject.put(VIDEO_NAME, videoName)
         channelObject.put(VIDEO_COUNT, videoCount)
         channelObject.put(CHANNEL_ID, chID)
+        channelObject.put(USER_ID, userID)
 
         if (savedInstanceState == null) {
             val chatFrag = newInstance(channelObject, ChatHomeFragment())
@@ -84,22 +81,6 @@ class MainActivity : AppCompatActivity(R.layout.video_comment) {
         }
     }
 
-    private fun initChatChannel() {
-        val sharedPref = getPreferences(MODE_PRIVATE) ?: return
-        val uuid = sharedPref.getString(USER_ID, null)
-        if (uuid == null) {
-            ekoDisposable = EkoClient.getCurrentUser().subscribe {
-                with(sharedPref.edit()) {
-                    putString(PROFILE_IMAGE, it.getAvatar()?.getUrl())
-                    apply()
-                }
-                with(sharedPref.edit()) {
-                    putString(USER_ID, it.getUserId())
-                    apply()
-                }
-            }
-        }
-    }
 
     @RequiresApi(Build.VERSION_CODES.O)
     fun getOnOpenPip() {

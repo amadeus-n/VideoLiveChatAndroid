@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.EkoCommunications.UpstraUIKitAndroid:chatkit:1.11.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ee4ae36730584d3045067c170a8ed81c/jetified-chatkit-1.11.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ee4ae36730584d3045067c170a8ed81c/jetified-chatkit-1.11.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ee4ae36730584d3045067c170a8ed81c/jetified-chatkit-1.11.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5184e405133ccb8114b333e7df681720/jetified-chatkit-1.11.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5184e405133ccb8114b333e7df681720/jetified-chatkit-1.11.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5184e405133ccb8114b333e7df681720/jetified-chatkit-1.11.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -77,17 +77,8 @@
                 android:id="@+id/chatFragment"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_above="@+id/chat_text_input_player"
                 android:visibility="visible" />
 
-            <include
-                android:id="@+id/chat_text_input_player"
-                layout="@layout/chat_text_input"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:background="@android:color/transparent"
-                android:visibility="visible" />
         </RelativeLayout>
 
 

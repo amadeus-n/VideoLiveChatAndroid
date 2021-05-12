@@ -41,6 +41,11 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="com.videoment.videocomment.ChatOnlyActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:supportsPictureInPicture="true" />
+        <activity
             android:name="com.videoment.videochatroom.MainActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"

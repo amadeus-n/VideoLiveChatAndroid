@@ -8,6 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.inputmethod.InputMethodManager
 import android.widget.*
+import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.LiveData
@@ -32,13 +33,16 @@ import io.reactivex.schedulers.Schedulers
 
 class ChatHomeFragment() : Fragment(R.layout.chat_list), ListListener {
     private var channelID = ""
+    private var userID = ""
     var chatAdapter: ChatAdapter? = null
     private lateinit var messageQuery: LiveData<PagedList<EkoMessage>>
     private lateinit var channelDisposable: Disposable
+    lateinit var ekoDisposable: Disposable
 
     companion object {
         const val PROFILE_IMAGE = "profileImage"
         const val CHANNEL_ID_ARG_KEY = "channelID"
+        const val USER_ID = "userId"
         const val HIDE_KEY_BOARD = 0
         const val POSITION = 1
     }
@@ -46,8 +50,30 @@ class ChatHomeFragment() : Fragment(R.layout.chat_list), ListListener {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         this.channelID = arguments?.getString(CHANNEL_ID_ARG_KEY) ?: ""
-        initChatFragment()
+        initChatChannel()
+    }
 
+    private fun initChatChannel() {
+        val sharedPref = requireActivity().getPreferences(AppCompatActivity.MODE_PRIVATE) ?: return
+        val uuid = sharedPref.getString(USER_ID, null)
+        if (uuid == null) {
+            ekoDisposable = EkoClient.getCurrentUser().subscribe {
+                with(sharedPref.edit()) {
+                    putString(PROFILE_IMAGE, it.getAvatar()?.getUrl())
+                    apply()
+                }
+                with(sharedPref.edit()) {
+                    putString(USER_ID, it.getUserId())
+                    apply()
+                }
+                userID = it.getUserId()
+            }
+        }
+        initChatFragment()
+        initJoinChannel()
+    }
+
+    private fun initJoinChannel(){
         val channelRepository = EkoClient.newChannelRepository()
         val messageRepository = EkoClient.newMessageRepository()
         channelRepository.joinChannel(channelID)

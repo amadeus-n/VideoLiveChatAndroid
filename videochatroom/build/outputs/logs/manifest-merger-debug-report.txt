@@ -3,24 +3,12 @@ manifest
 ADDED from C:\Users\napha\AndroidStudioProjects\VideoComment\videochatroom\src\main\AndroidManifest.xml:2:1-51
 INJECTED from C:\Users\napha\AndroidStudioProjects\VideoComment\videochatroom\src\main\AndroidManifest.xml:2:1-51
 INJECTED from C:\Users\napha\AndroidStudioProjects\VideoComment\videochatroom\src\main\AndroidManifest.xml:2:1-51
-INJECTED from C:\Users\napha\AndroidStudioProjects\VideoComment\videochatroom\src\main\AndroidManifest.xml:2:1-51
-INJECTED from C:\Users\napha\AndroidStudioProjects\VideoComment\videochatroom\src\main\AndroidManifest.xml:2:1-51
-INJECTED from C:\Users\napha\AndroidStudioProjects\VideoComment\videochatroom\src\main\AndroidManifest.xml:2:1-51
-INJECTED from C:\Users\napha\AndroidStudioProjects\VideoComment\videochatroom\src\main\AndroidManifest.xml:2:1-51
 	package
 		ADDED from C:\Users\napha\AndroidStudioProjects\VideoComment\videochatroom\src\main\AndroidManifest.xml:2:11-48
 		INJECTED from C:\Users\napha\AndroidStudioProjects\VideoComment\videochatroom\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\napha\AndroidStudioProjects\VideoComment\videochatroom\src\main\AndroidManifest.xml
-	android:versionName
-		INJECTED from C:\Users\napha\AndroidStudioProjects\VideoComment\videochatroom\src\main\AndroidManifest.xml
-		ADDED from C:\Users\napha\AndroidStudioProjects\VideoComment\videochatroom\src\main\AndroidManifest.xml:2:1-51
-		INJECTED from C:\Users\napha\AndroidStudioProjects\VideoComment\videochatroom\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\napha\AndroidStudioProjects\VideoComment\videochatroom\src\main\AndroidManifest.xml:2:1-51
-	android:versionCode
-		INJECTED from C:\Users\napha\AndroidStudioProjects\VideoComment\videochatroom\src\main\AndroidManifest.xml
-		ADDED from C:\Users\napha\AndroidStudioProjects\VideoComment\videochatroom\src\main\AndroidManifest.xml:2:1-51
-		INJECTED from C:\Users\napha\AndroidStudioProjects\VideoComment\videochatroom\src\main\AndroidManifest.xml
 uses-sdk
 INJECTED from C:\Users\napha\AndroidStudioProjects\VideoComment\videochatroom\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\napha\AndroidStudioProjects\VideoComment\videochatroom\src\main\AndroidManifest.xml

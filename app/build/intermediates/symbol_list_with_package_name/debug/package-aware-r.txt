@@ -2409,7 +2409,6 @@ id amCross
 id amName
 id animateToEnd
 id animateToStart
-id apiKeyField
 id appBar
 id appBarLayout
 id asConfigured
@@ -2473,7 +2472,6 @@ id ccName
 id center
 id center_horizontal
 id center_vertical
-id chIdField
 id chain
 id chains
 id channelAvatarView
@@ -3033,7 +3031,6 @@ id stretch
 id strokeRipple
 id subCategoryName
 id submenuarrow
-id submitBtn
 id submit_area
 id surface_view
 id switchPostAsCommunity
@@ -3062,12 +3059,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
-id textView2
-id textView3
-id textView4
-id textView5
-id textView6
 id textViewRemainingCount
 id textWatcher
 id text_input_end_icon
@@ -3080,6 +3071,7 @@ id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
 id texture_view
+id textview
 id textview_reply_to
 id textview_view_more_replies
 id time
@@ -3192,16 +3184,12 @@ id uniform
 id unlabeled
 id unreportUser
 id up
-id urlField
 id useLogo
-id userIDField
 id userName
-id userNameField
 id userProfileHeader
 id usernameMessageAppTextView
 id videoDetailRelativeLayout
 id videoFragment
-id videoNameField
 id videoNameTextView
 id videoShareBtn
 id video_decoder_gl_surface_view
@@ -3436,6 +3424,7 @@ layout amity_view_user_profile_header
 layout bottom_sheet_dialog
 layout chat_list
 layout chat_text_input
+layout chatonly_activity
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

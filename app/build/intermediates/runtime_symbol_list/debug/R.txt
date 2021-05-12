@@ -2408,7 +2408,6 @@ int id amCross 0x7f0a0063
 int id amName 0x7f0a0064
 int id animateToEnd 0x7f0a0065
 int id animateToStart 0x7f0a0066
-int id apiKeyField 0x7f0a0067
 int id appBar 0x7f0a0068
 int id appBarLayout 0x7f0a0069
 int id asConfigured 0x7f0a006a
@@ -2472,7 +2471,6 @@ int id ccName 0x7f0a00a3
 int id center 0x7f0a00a4
 int id center_horizontal 0x7f0a00a5
 int id center_vertical 0x7f0a00a6
-int id chIdField 0x7f0a00a7
 int id chain 0x7f0a00a8
 int id chains 0x7f0a00a9
 int id channelAvatarView 0x7f0a00aa
@@ -3032,7 +3030,6 @@ int id stretch 0x7f0a02d3
 int id strokeRipple 0x7f0a02d4
 int id subCategoryName 0x7f0a02d5
 int id submenuarrow 0x7f0a02d6
-int id submitBtn 0x7f0a02d7
 int id submit_area 0x7f0a02d8
 int id surface_view 0x7f0a02d9
 int id switchPostAsCommunity 0x7f0a02da
@@ -3061,12 +3058,6 @@ int id textSpacerNoButtons 0x7f0a02f0
 int id textSpacerNoTitle 0x7f0a02f1
 int id textStart 0x7f0a02f2
 int id textTop 0x7f0a02f3
-int id textView 0x7f0a02f4
-int id textView2 0x7f0a02f5
-int id textView3 0x7f0a02f6
-int id textView4 0x7f0a02f7
-int id textView5 0x7f0a02f8
-int id textView6 0x7f0a02f9
 int id textViewRemainingCount 0x7f0a02fa
 int id textWatcher 0x7f0a02fb
 int id text_input_end_icon 0x7f0a02fc
@@ -3079,6 +3070,7 @@ int id textinput_placeholder 0x7f0a0302
 int id textinput_prefix_text 0x7f0a0303
 int id textinput_suffix_text 0x7f0a0304
 int id texture_view 0x7f0a0305
+int id textview 0x7f0a039c
 int id textview_reply_to 0x7f0a0306
 int id textview_view_more_replies 0x7f0a0307
 int id time 0x7f0a0308
@@ -3191,16 +3183,12 @@ int id uniform 0x7f0a0372
 int id unlabeled 0x7f0a0373
 int id unreportUser 0x7f0a0374
 int id up 0x7f0a0375
-int id urlField 0x7f0a0376
 int id useLogo 0x7f0a0377
-int id userIDField 0x7f0a0378
 int id userName 0x7f0a0379
-int id userNameField 0x7f0a037a
 int id userProfileHeader 0x7f0a037b
 int id usernameMessageAppTextView 0x7f0a037c
 int id videoDetailRelativeLayout 0x7f0a037d
 int id videoFragment 0x7f0a037e
-int id videoNameField 0x7f0a037f
 int id videoNameTextView 0x7f0a0380
 int id videoShareBtn 0x7f0a0381
 int id video_decoder_gl_surface_view 0x7f0a0382
@@ -3435,6 +3423,7 @@ int layout amity_view_user_profile_header 0x7f0d009e
 int layout bottom_sheet_dialog 0x7f0d009f
 int layout chat_list 0x7f0d00a0
 int layout chat_text_input 0x7f0d00a1
+int layout chatonly_activity 0x7f0d0126
 int layout custom_dialog 0x7f0d00a2
 int layout design_bottom_navigation_item 0x7f0d00a3
 int layout design_bottom_sheet_dialog 0x7f0d00a4
