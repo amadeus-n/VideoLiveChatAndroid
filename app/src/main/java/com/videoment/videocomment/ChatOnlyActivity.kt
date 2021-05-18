@@ -13,22 +13,14 @@ class ChatOnlyActivity : AppCompatActivity(R.layout.chatonly_activity) {
 
     val CHANNEL_ID = "channelID"
     val USER_ID = "userId"
-    val USER_NAME = "userName"
-    val API_KEY = "apiKey"
 
-    var apikey = ""
-    var chID = ""
-    var userID = ""
-    var userName = ""
+    var apikey = "apikey"
+    var chID = "chID"
+    var userID = "userID"
+    var userName = "userName"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        apikey = intent.getStringExtra(API_KEY) ?: ""
-        chID = intent.getStringExtra(CHANNEL_ID) ?: ""
-        userID = intent.getStringExtra(USER_ID) ?: ""
-        userName = intent.getStringExtra(USER_NAME) ?: ""
-
         initEkoClient()
         initFragment(savedInstanceState)
     }

@@ -15,10 +15,6 @@
         <activity
             android:name=".StartActivity"
             tools:targetApi="n">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <activity
@@ -26,7 +22,12 @@
             android:screenOrientation="portrait"
             android:supportsPictureInPicture="true"
             android:launchMode="singleTask"
-            tools:targetApi="n" />
+            tools:targetApi="n" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
         <activity
             android:name="com.videoment.videochatroom.MainActivity"
