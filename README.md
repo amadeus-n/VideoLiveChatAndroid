@@ -25,19 +25,56 @@ dependencies {
     implementation project(path: ':videochatroom')
 }
 ```
+### Import module using
+
+```
+import com.videoment.videochatroom.chatfragment.ChatHomeFragment
+
+```
+
+### Create Framelayout
+
+```
+    <FrameLayout
+        android:id="@+id/chatFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/matchCoordinatorLayout"
+        android:visibility="visible" />
+
+```
+
 ### Call module using
 
 ```
-val videoChatIntent = Intent(this, com.videoment.videochatroom.MainActivity::class.java)
-        videoChatIntent.putExtra(API_KEY, "apiKey")
-        videoChatIntent.putExtra(CHANNEL_ID, "channelID")
-        videoChatIntent.putExtra(USER_ID, "userId")
-        videoChatIntent.putExtra(USER_NAME, "userName")
-        videoChatIntent.putExtra(VIDEO_NAME, "videoName")
-        videoChatIntent.putExtra(VIDEO_URL, "videoUrl")
-        startActivity(videoChatIntent)
-        this.finish()
-
+        val channelObject = JSONObject()
+        channelObject.put(CHANNEL_ID, chID)
+        channelObject.put(USER_ID, userID)
+            
+         val chatFrag = newInstance(channelObject, ChatHomeFragment())
+         addFragment(chatFrag, com.videoment.videochatroom.R.id.chatFragment)
+         
+         private fun newInstance(channelObject: JSONObject, frag: Fragment): Fragment {
+                val args = Bundle()
+                args.putString(CHANNEL_ID, channelObject.getString(CHANNEL_ID))
+                frag.arguments = args
+                return frag
+        }        
+            
+         private fun addFragment(fragment: Fragment, viewID: Int) {
+             supportFragmentManager
+             .beginTransaction()
+             .setCustomAnimations(
+                        com.videoment.videochatroom.R.anim.design_bottom_sheet_slide_in,
+                        com.videoment.videochatroom.R.anim.design_bottom_sheet_slide_out
+              )
+             .replace(
+                        viewID,
+                        fragment,
+                        fragment.javaClass.simpleName
+              )
+             .commit()
+        }
 ```
 
 ## Amity Chat SDK Installation Guide
