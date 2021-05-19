@@ -1,2 +1,2 @@
-com/videoment/videochatroom/BuildConfig.java
- com.videoment.videochatroom.BuildConfig
+com/amityco/videochatroom/BuildConfig.java
+ com.amityco.videochatroom.BuildConfig

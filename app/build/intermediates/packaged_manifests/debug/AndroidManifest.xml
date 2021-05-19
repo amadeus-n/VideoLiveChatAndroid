@@ -33,10 +33,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.VideoComment"
         android:usesCleartextTraffic="true" >
-        <activity android:name="com.videoment.videocomment.StartActivity" >
+        <activity android:name="com.amityco.videocomment.StartActivity" >
         </activity>
         <activity
-            android:name="com.videoment.videocomment.ChatOnlyActivity"
+            android:name="com.amityco.videocomment.ChatOnlyActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:supportsPictureInPicture="true" >
@@ -46,11 +46,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.videoment.videochatroom.MainActivity"
-            android:launchMode="singleTask"
-            android:screenOrientation="portrait"
-            android:supportsPictureInPicture="true" />
         <activity
             android:name="com.ekoapp.ekosdk.uikit.community.newsfeed.activity.EkoMyFeedActivity"
             android:screenOrientation="portrait"

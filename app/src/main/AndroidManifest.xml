@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.videoment.videocomment">
+    package="com.amityco.videocomment">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <application
@@ -13,12 +13,12 @@
         android:theme="@style/Theme.VideoComment"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".StartActivity"
+            android:name="com.amityco.videocomment.StartActivity"
             tools:targetApi="n">
         </activity>
 
         <activity
-            android:name=".ChatOnlyActivity"
+            android:name="com.amityco.videocomment.ChatOnlyActivity"
             android:screenOrientation="portrait"
             android:supportsPictureInPicture="true"
             android:launchMode="singleTask"
@@ -28,13 +28,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity
-            android:name="com.videoment.videochatroom.MainActivity"
-            android:screenOrientation="portrait"
-            android:supportsPictureInPicture="true"
-            android:launchMode="singleTask"
-            tools:targetApi="n" />
 
     </application>
 

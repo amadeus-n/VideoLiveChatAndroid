@@ -16,12 +16,12 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center|bottom"
             android:backgroundTint="@android:color/white"
-            android:text="Scroll down"
-            android:textColor="@color/chatmsg"
-            android:textSize="12sp"
+            android:text="@string/amity_video_sample_text_scroll_down"
+            android:textColor="@color/amity_video_sample_message_color"
+            android:textSize="@dimen/amity_video_sample_scroll_down_text_size"
             android:visibility="gone"
             app:icon="@drawable/amity_ic_arrow_down"
-            app:iconTint="@color/chatmsg" />
+            app:iconTint="@color/amity_video_sample_message_color" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/content_recycler"
@@ -41,7 +41,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="0dp"
         android:layout_marginBottom="0dp"
-        android:background="#ffffff"
+        android:background="@color/amity_video_sample_text_input_background"
         android:visibility="visible" />
 
 </RelativeLayout>

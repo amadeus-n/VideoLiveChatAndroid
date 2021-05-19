@@ -19,10 +19,11 @@
     <color name="color_link_url">#75acc1</color>
     <color name="white_light">#ebebeb</color>
     <color name="wc_blue">#75acc1</color>
-    <color name="color_background_reaction">#eeeef0</color>
     <color name="color_reply_username">#87939f</color>
     <color name="dove_gray">#717171</color>
     <color name="color_line_space">#5d5d5d</color>
-    <color name="chatmsg">#1c1c1c</color>
-    <color name="chat_name">#555555</color>
+    <color name="amity_video_sample_color_background_reaction">#eeeef0</color>
+    <color name="amity_video_sample_username_color">#555555</color>
+    <color name="amity_video_sample_message_color">#1c1c1c</color>
+    <color name="amity_video_sample_text_input_background">#FFFFFFFF</color>
 </resources>

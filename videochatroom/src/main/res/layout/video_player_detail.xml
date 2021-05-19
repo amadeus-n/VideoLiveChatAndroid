@@ -37,7 +37,7 @@
         android:layout_toEndOf="@+id/previewIcon"
         android:hint="42.2K"
         android:lines="1"
-        android:textColor="@color/chatmsg"
+        android:textColor="@color/amity_video_sample_message_color"
         android:textSize="12sp" />
 
     <FrameLayout

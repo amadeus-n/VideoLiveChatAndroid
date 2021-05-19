@@ -45,7 +45,7 @@
 21-->[androidx.test:core:1.3.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\2e7c61838b2cd96d81e9aba818202edd\jetified-core-1.3.0\AndroidManifest.xml:24:22-69
 22
 23    <application
-23-->C:\Users\napha\AndroidStudioProjects\VideoComment\app\src\main\AndroidManifest.xml:7:5-39:19
+23-->C:\Users\napha\AndroidStudioProjects\VideoComment\app\src\main\AndroidManifest.xml:7:5-32:19
 24        android:allowBackup="true"
 24-->C:\Users\napha\AndroidStudioProjects\VideoComment\app\src\main\AndroidManifest.xml:8:9-35
 25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -67,14 +67,14 @@
 34-->C:\Users\napha\AndroidStudioProjects\VideoComment\app\src\main\AndroidManifest.xml:13:9-50
 35        android:usesCleartextTraffic="true" >
 35-->C:\Users\napha\AndroidStudioProjects\VideoComment\app\src\main\AndroidManifest.xml:14:9-44
-36        <activity android:name="com.videoment.videocomment.StartActivity" >
+36        <activity android:name="com.amityco.videocomment.StartActivity" >
 36-->C:\Users\napha\AndroidStudioProjects\VideoComment\app\src\main\AndroidManifest.xml:15:9-18:20
-36-->C:\Users\napha\AndroidStudioProjects\VideoComment\app\src\main\AndroidManifest.xml:16:13-42
+36-->C:\Users\napha\AndroidStudioProjects\VideoComment\app\src\main\AndroidManifest.xml:16:13-66
 37        </activity>
 38        <activity
 38-->C:\Users\napha\AndroidStudioProjects\VideoComment\app\src\main\AndroidManifest.xml:20:9-30:20
-39            android:name="com.videoment.videocomment.ChatOnlyActivity"
-39-->C:\Users\napha\AndroidStudioProjects\VideoComment\app\src\main\AndroidManifest.xml:21:13-45
+39            android:name="com.amityco.videocomment.ChatOnlyActivity"
+39-->C:\Users\napha\AndroidStudioProjects\VideoComment\app\src\main\AndroidManifest.xml:21:13-69
 40            android:launchMode="singleTask"
 40-->C:\Users\napha\AndroidStudioProjects\VideoComment\app\src\main\AndroidManifest.xml:24:13-44
 41            android:screenOrientation="portrait"
@@ -93,451 +93,441 @@
 47            </intent-filter>
 48        </activity>
 49        <activity
-49-->C:\Users\napha\AndroidStudioProjects\VideoComment\app\src\main\AndroidManifest.xml:32:9-37:35
-50            android:name="com.videoment.videochatroom.MainActivity"
-50-->C:\Users\napha\AndroidStudioProjects\VideoComment\app\src\main\AndroidManifest.xml:33:13-68
-51            android:launchMode="singleTask"
-51-->C:\Users\napha\AndroidStudioProjects\VideoComment\app\src\main\AndroidManifest.xml:36:13-44
-52            android:screenOrientation="portrait"
-52-->C:\Users\napha\AndroidStudioProjects\VideoComment\app\src\main\AndroidManifest.xml:34:13-49
-53            android:supportsPictureInPicture="true" />
-53-->C:\Users\napha\AndroidStudioProjects\VideoComment\app\src\main\AndroidManifest.xml:35:13-52
-54        <activity
-54-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:15:9-18:56
-55            android:name="com.ekoapp.ekosdk.uikit.community.newsfeed.activity.EkoMyFeedActivity"
-55-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:16:13-97
-56            android:screenOrientation="portrait"
-56-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:17:13-49
-57            android:theme="@style/Base.Theme.EkoApp" />
-57-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:18:13-53
-58        <activity
-58-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:19:9-22:56
-59            android:name="com.ekoapp.ekosdk.uikit.community.newsfeed.activity.EkoEditPostActivity"
-59-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:20:13-99
-60            android:screenOrientation="portrait"
-60-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:21:13-49
-61            android:theme="@style/Base.Theme.EkoApp" />
-61-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:22:13-53
-62        <activity
-62-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:23:9-26:56
-63            android:name="com.ekoapp.ekosdk.uikit.community.edit.EkoCommunityProfileActivity"
-63-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:24:13-94
-64            android:screenOrientation="portrait"
-64-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:25:13-49
-65            android:theme="@style/Base.Theme.EkoApp" />
-65-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:26:13-53
-66        <activity
-66-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:27:9-30:56
-67            android:name="com.ekoapp.ekosdk.uikit.community.profile.activity.EkoEditUserProfileActivity"
-67-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:28:13-105
-68            android:screenOrientation="portrait"
-68-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:29:13-49
-69            android:theme="@style/Base.Theme.EkoApp" />
-69-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:30:13-53
-70        <activity
-70-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:31:9-34:56
-71            android:name="com.ekoapp.ekosdk.uikit.community.members.EkoCommunityMemberSettingsActivity"
-71-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:32:13-104
-72            android:screenOrientation="portrait"
-72-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:33:13-49
-73            android:theme="@style/Base.Theme.EkoApp" />
-73-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:34:13-53
-74        <activity
-74-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:35:9-38:56
-75            android:name="com.ekoapp.ekosdk.uikit.community.setting.EkoCommunitySettingsActivity"
-75-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:36:13-98
-76            android:screenOrientation="portrait"
-76-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:37:13-49
-77            android:theme="@style/Base.Theme.EkoApp" />
-77-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:38:13-53
-78        <activity
-78-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:39:9-42:56
-79            android:name="com.ekoapp.ekosdk.uikit.community.explore.activity.EkoCategoryCommunityListActivity"
-79-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:40:13-111
-80            android:screenOrientation="portrait"
-80-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:41:13-49
-81            android:theme="@style/Base.Theme.EkoApp" />
-81-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:42:13-53
-82        <activity
-82-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:43:9-46:56
-83            android:name="com.ekoapp.ekosdk.uikit.community.mycommunity.activity.EkoMyCommunityActivity"
-83-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:44:13-105
-84            android:screenOrientation="portrait"
-84-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:45:13-49
-85            android:theme="@style/Base.Theme.EkoApp" />
-85-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:46:13-53
-86        <activity
-86-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:47:9-50:56
-87            android:name="com.ekoapp.ekosdk.uikit.community.profile.activity.EkoUserProfileActivity"
-87-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:48:13-101
-88            android:screenOrientation="portrait"
-88-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:49:13-49
-89            android:theme="@style/Base.Theme.EkoApp" />
-89-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:50:13-53
-90        <activity
-90-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:51:9-54:56
-91            android:name="com.ekoapp.ekosdk.uikit.community.explore.activity.EkoCategorySelectionActivity"
-91-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:52:13-107
-92            android:screenOrientation="portrait"
-92-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:53:13-49
-93            android:theme="@style/Base.Theme.EkoApp" />
-93-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:54:13-53
-94        <activity
-94-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:55:9-58:56
-95            android:name="com.ekoapp.ekosdk.uikit.community.explore.activity.EkoCategoryListActivity"
-95-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:56:13-102
-96            android:screenOrientation="portrait"
-96-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:57:13-49
-97            android:theme="@style/Base.Theme.EkoApp" />
-97-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:58:13-53
-98        <activity
-98-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:59:9-62:56
-99            android:name="com.ekoapp.ekosdk.uikit.community.detailpage.EkoCommunityPageActivity"
-99-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:60:13-97
-100            android:screenOrientation="portrait"
-100-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:61:13-49
-101            android:theme="@style/Base.Theme.EkoApp" />
-101-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:62:13-53
-102        <activity
-102-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:63:9-66:56
-103            android:name="com.ekoapp.ekosdk.uikit.community.home.activity.EkoCommunityHomePageActivity"
-103-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:64:13-104
-104            android:screenOrientation="portrait"
-104-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:65:13-49
-105            android:theme="@style/Base.Theme.EkoApp" />
-105-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:66:13-53
-106        <activity
-106-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:67:9-70:56
-107            android:name="com.ekoapp.ekosdk.uikit.community.newsfeed.activity.EkoPostTargetSelectionActivity"
-107-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:68:13-110
-108            android:screenOrientation="portrait"
-108-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:69:13-49
-109            android:theme="@style/Base.Theme.EkoApp" />
-109-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:70:13-53
-110        <activity
-110-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:71:9-74:56
-111            android:name="com.ekoapp.ekosdk.uikit.community.newsfeed.activity.EkoPostDetailsActivity"
-111-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:72:13-102
-112            android:screenOrientation="portrait"
-112-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:73:13-49
-113            android:theme="@style/Base.Theme.EkoApp" />
-113-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:74:13-53
-114        <activity
-114-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:75:9-78:56
-115            android:name="com.ekoapp.ekosdk.uikit.community.newsfeed.activity.EkoCreatePostActivity"
-115-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:76:13-101
-116            android:screenOrientation="portrait"
-116-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:77:13-49
-117            android:theme="@style/Base.Theme.EkoApp" />
-117-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:78:13-53
-118        <activity
-118-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:79:9-82:56
-119            android:name="com.ekoapp.ekosdk.uikit.community.ui.view.EkoSelectMembersListActivity"
-119-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:80:13-98
-120            android:screenOrientation="portrait"
-120-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:81:13-49
-121            android:theme="@style/Base.Theme.EkoApp" />
-121-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:82:13-53
-122        <activity
-122-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:83:9-86:56
-123            android:name="com.ekoapp.ekosdk.uikit.community.ui.view.EkoCommunityCreateActivity"
-123-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:84:13-96
-124            android:screenOrientation="portrait"
-124-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:85:13-49
-125            android:theme="@style/Base.Theme.EkoApp" />
-125-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:86:13-53
-126        <activity
-126-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:87:9-90:56
-127            android:name="com.ekoapp.ekosdk.uikit.community.newsfeed.activity.EkoEditCommentActivity"
-127-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:88:13-102
-128            android:screenOrientation="portrait"
-128-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:89:13-49
-129            android:theme="@style/Base.Theme.EkoApp" />
-129-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:90:13-53
-130        <activity
-130-->[com.github.EkoCommunications.UpstraUIKitAndroid:chatkit:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5184e405133ccb8114b333e7df681720\jetified-chatkit-1.11.1\AndroidManifest.xml:14:9-17:56
-131            android:name="com.ekoapp.ekosdk.uikit.chat.editMessage.EkoEditMessageActivity"
-131-->[com.github.EkoCommunications.UpstraUIKitAndroid:chatkit:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5184e405133ccb8114b333e7df681720\jetified-chatkit-1.11.1\AndroidManifest.xml:15:13-91
-132            android:screenOrientation="portrait"
-132-->[com.github.EkoCommunications.UpstraUIKitAndroid:chatkit:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5184e405133ccb8114b333e7df681720\jetified-chatkit-1.11.1\AndroidManifest.xml:16:13-49
-133            android:theme="@style/Base.Theme.EkoApp" />
-133-->[com.github.EkoCommunications.UpstraUIKitAndroid:chatkit:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5184e405133ccb8114b333e7df681720\jetified-chatkit-1.11.1\AndroidManifest.xml:17:13-53
+49-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:15:9-18:56
+50            android:name="com.ekoapp.ekosdk.uikit.community.newsfeed.activity.EkoMyFeedActivity"
+50-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:16:13-97
+51            android:screenOrientation="portrait"
+51-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:17:13-49
+52            android:theme="@style/Base.Theme.EkoApp" />
+52-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:18:13-53
+53        <activity
+53-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:19:9-22:56
+54            android:name="com.ekoapp.ekosdk.uikit.community.newsfeed.activity.EkoEditPostActivity"
+54-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:20:13-99
+55            android:screenOrientation="portrait"
+55-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:21:13-49
+56            android:theme="@style/Base.Theme.EkoApp" />
+56-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:22:13-53
+57        <activity
+57-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:23:9-26:56
+58            android:name="com.ekoapp.ekosdk.uikit.community.edit.EkoCommunityProfileActivity"
+58-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:24:13-94
+59            android:screenOrientation="portrait"
+59-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:25:13-49
+60            android:theme="@style/Base.Theme.EkoApp" />
+60-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:26:13-53
+61        <activity
+61-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:27:9-30:56
+62            android:name="com.ekoapp.ekosdk.uikit.community.profile.activity.EkoEditUserProfileActivity"
+62-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:28:13-105
+63            android:screenOrientation="portrait"
+63-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:29:13-49
+64            android:theme="@style/Base.Theme.EkoApp" />
+64-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:30:13-53
+65        <activity
+65-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:31:9-34:56
+66            android:name="com.ekoapp.ekosdk.uikit.community.members.EkoCommunityMemberSettingsActivity"
+66-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:32:13-104
+67            android:screenOrientation="portrait"
+67-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:33:13-49
+68            android:theme="@style/Base.Theme.EkoApp" />
+68-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:34:13-53
+69        <activity
+69-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:35:9-38:56
+70            android:name="com.ekoapp.ekosdk.uikit.community.setting.EkoCommunitySettingsActivity"
+70-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:36:13-98
+71            android:screenOrientation="portrait"
+71-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:37:13-49
+72            android:theme="@style/Base.Theme.EkoApp" />
+72-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:38:13-53
+73        <activity
+73-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:39:9-42:56
+74            android:name="com.ekoapp.ekosdk.uikit.community.explore.activity.EkoCategoryCommunityListActivity"
+74-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:40:13-111
+75            android:screenOrientation="portrait"
+75-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:41:13-49
+76            android:theme="@style/Base.Theme.EkoApp" />
+76-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:42:13-53
+77        <activity
+77-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:43:9-46:56
+78            android:name="com.ekoapp.ekosdk.uikit.community.mycommunity.activity.EkoMyCommunityActivity"
+78-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:44:13-105
+79            android:screenOrientation="portrait"
+79-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:45:13-49
+80            android:theme="@style/Base.Theme.EkoApp" />
+80-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:46:13-53
+81        <activity
+81-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:47:9-50:56
+82            android:name="com.ekoapp.ekosdk.uikit.community.profile.activity.EkoUserProfileActivity"
+82-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:48:13-101
+83            android:screenOrientation="portrait"
+83-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:49:13-49
+84            android:theme="@style/Base.Theme.EkoApp" />
+84-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:50:13-53
+85        <activity
+85-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:51:9-54:56
+86            android:name="com.ekoapp.ekosdk.uikit.community.explore.activity.EkoCategorySelectionActivity"
+86-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:52:13-107
+87            android:screenOrientation="portrait"
+87-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:53:13-49
+88            android:theme="@style/Base.Theme.EkoApp" />
+88-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:54:13-53
+89        <activity
+89-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:55:9-58:56
+90            android:name="com.ekoapp.ekosdk.uikit.community.explore.activity.EkoCategoryListActivity"
+90-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:56:13-102
+91            android:screenOrientation="portrait"
+91-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:57:13-49
+92            android:theme="@style/Base.Theme.EkoApp" />
+92-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:58:13-53
+93        <activity
+93-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:59:9-62:56
+94            android:name="com.ekoapp.ekosdk.uikit.community.detailpage.EkoCommunityPageActivity"
+94-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:60:13-97
+95            android:screenOrientation="portrait"
+95-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:61:13-49
+96            android:theme="@style/Base.Theme.EkoApp" />
+96-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:62:13-53
+97        <activity
+97-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:63:9-66:56
+98            android:name="com.ekoapp.ekosdk.uikit.community.home.activity.EkoCommunityHomePageActivity"
+98-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:64:13-104
+99            android:screenOrientation="portrait"
+99-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:65:13-49
+100            android:theme="@style/Base.Theme.EkoApp" />
+100-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:66:13-53
+101        <activity
+101-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:67:9-70:56
+102            android:name="com.ekoapp.ekosdk.uikit.community.newsfeed.activity.EkoPostTargetSelectionActivity"
+102-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:68:13-110
+103            android:screenOrientation="portrait"
+103-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:69:13-49
+104            android:theme="@style/Base.Theme.EkoApp" />
+104-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:70:13-53
+105        <activity
+105-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:71:9-74:56
+106            android:name="com.ekoapp.ekosdk.uikit.community.newsfeed.activity.EkoPostDetailsActivity"
+106-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:72:13-102
+107            android:screenOrientation="portrait"
+107-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:73:13-49
+108            android:theme="@style/Base.Theme.EkoApp" />
+108-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:74:13-53
+109        <activity
+109-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:75:9-78:56
+110            android:name="com.ekoapp.ekosdk.uikit.community.newsfeed.activity.EkoCreatePostActivity"
+110-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:76:13-101
+111            android:screenOrientation="portrait"
+111-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:77:13-49
+112            android:theme="@style/Base.Theme.EkoApp" />
+112-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:78:13-53
+113        <activity
+113-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:79:9-82:56
+114            android:name="com.ekoapp.ekosdk.uikit.community.ui.view.EkoSelectMembersListActivity"
+114-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:80:13-98
+115            android:screenOrientation="portrait"
+115-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:81:13-49
+116            android:theme="@style/Base.Theme.EkoApp" />
+116-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:82:13-53
+117        <activity
+117-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:83:9-86:56
+118            android:name="com.ekoapp.ekosdk.uikit.community.ui.view.EkoCommunityCreateActivity"
+118-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:84:13-96
+119            android:screenOrientation="portrait"
+119-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:85:13-49
+120            android:theme="@style/Base.Theme.EkoApp" />
+120-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:86:13-53
+121        <activity
+121-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:87:9-90:56
+122            android:name="com.ekoapp.ekosdk.uikit.community.newsfeed.activity.EkoEditCommentActivity"
+122-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:88:13-102
+123            android:screenOrientation="portrait"
+123-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:89:13-49
+124            android:theme="@style/Base.Theme.EkoApp" />
+124-->[com.github.EkoCommunications.UpstraUIKitAndroid:community:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\e2a0c618199d7255cf975368fc2ca57c\jetified-community-1.11.1\AndroidManifest.xml:90:13-53
+125        <activity
+125-->[com.github.EkoCommunications.UpstraUIKitAndroid:chatkit:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5184e405133ccb8114b333e7df681720\jetified-chatkit-1.11.1\AndroidManifest.xml:14:9-17:56
+126            android:name="com.ekoapp.ekosdk.uikit.chat.editMessage.EkoEditMessageActivity"
+126-->[com.github.EkoCommunications.UpstraUIKitAndroid:chatkit:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5184e405133ccb8114b333e7df681720\jetified-chatkit-1.11.1\AndroidManifest.xml:15:13-91
+127            android:screenOrientation="portrait"
+127-->[com.github.EkoCommunications.UpstraUIKitAndroid:chatkit:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5184e405133ccb8114b333e7df681720\jetified-chatkit-1.11.1\AndroidManifest.xml:16:13-49
+128            android:theme="@style/Base.Theme.EkoApp" />
+128-->[com.github.EkoCommunications.UpstraUIKitAndroid:chatkit:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5184e405133ccb8114b333e7df681720\jetified-chatkit-1.11.1\AndroidManifest.xml:17:13-53
+129        <activity
+129-->[com.github.EkoCommunications.UpstraUIKitAndroid:chatkit:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5184e405133ccb8114b333e7df681720\jetified-chatkit-1.11.1\AndroidManifest.xml:18:9-22:58
+130            android:name="com.ekoapp.ekosdk.uikit.chat.messages.EkoMessageListActivity"
+130-->[com.github.EkoCommunications.UpstraUIKitAndroid:chatkit:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5184e405133ccb8114b333e7df681720\jetified-chatkit-1.11.1\AndroidManifest.xml:19:13-88
+131            android:screenOrientation="portrait"
+131-->[com.github.EkoCommunications.UpstraUIKitAndroid:chatkit:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5184e405133ccb8114b333e7df681720\jetified-chatkit-1.11.1\AndroidManifest.xml:20:13-49
+132            android:theme="@style/Base.Theme.EkoApp"
+132-->[com.github.EkoCommunications.UpstraUIKitAndroid:chatkit:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5184e405133ccb8114b333e7df681720\jetified-chatkit-1.11.1\AndroidManifest.xml:21:13-53
+133            android:windowSoftInputMode="adjustResize" />
+133-->[com.github.EkoCommunications.UpstraUIKitAndroid:chatkit:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5184e405133ccb8114b333e7df681720\jetified-chatkit-1.11.1\AndroidManifest.xml:22:13-55
 134        <activity
-134-->[com.github.EkoCommunications.UpstraUIKitAndroid:chatkit:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5184e405133ccb8114b333e7df681720\jetified-chatkit-1.11.1\AndroidManifest.xml:18:9-22:58
-135            android:name="com.ekoapp.ekosdk.uikit.chat.messages.EkoMessageListActivity"
-135-->[com.github.EkoCommunications.UpstraUIKitAndroid:chatkit:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5184e405133ccb8114b333e7df681720\jetified-chatkit-1.11.1\AndroidManifest.xml:19:13-88
+134-->[com.github.EkoCommunications.UpstraUIKitAndroid:chatkit:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5184e405133ccb8114b333e7df681720\jetified-chatkit-1.11.1\AndroidManifest.xml:23:9-26:56
+135            android:name="com.ekoapp.ekosdk.uikit.chat.home.EkoChatHomePageActivity"
+135-->[com.github.EkoCommunications.UpstraUIKitAndroid:chatkit:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5184e405133ccb8114b333e7df681720\jetified-chatkit-1.11.1\AndroidManifest.xml:24:13-85
 136            android:screenOrientation="portrait"
-136-->[com.github.EkoCommunications.UpstraUIKitAndroid:chatkit:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5184e405133ccb8114b333e7df681720\jetified-chatkit-1.11.1\AndroidManifest.xml:20:13-49
-137            android:theme="@style/Base.Theme.EkoApp"
-137-->[com.github.EkoCommunications.UpstraUIKitAndroid:chatkit:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5184e405133ccb8114b333e7df681720\jetified-chatkit-1.11.1\AndroidManifest.xml:21:13-53
-138            android:windowSoftInputMode="adjustResize" />
-138-->[com.github.EkoCommunications.UpstraUIKitAndroid:chatkit:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5184e405133ccb8114b333e7df681720\jetified-chatkit-1.11.1\AndroidManifest.xml:22:13-55
-139        <activity
-139-->[com.github.EkoCommunications.UpstraUIKitAndroid:chatkit:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5184e405133ccb8114b333e7df681720\jetified-chatkit-1.11.1\AndroidManifest.xml:23:9-26:56
-140            android:name="com.ekoapp.ekosdk.uikit.chat.home.EkoChatHomePageActivity"
-140-->[com.github.EkoCommunications.UpstraUIKitAndroid:chatkit:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5184e405133ccb8114b333e7df681720\jetified-chatkit-1.11.1\AndroidManifest.xml:24:13-85
-141            android:screenOrientation="portrait"
-141-->[com.github.EkoCommunications.UpstraUIKitAndroid:chatkit:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5184e405133ccb8114b333e7df681720\jetified-chatkit-1.11.1\AndroidManifest.xml:25:13-49
-142            android:theme="@style/Base.Theme.EkoApp" />
-142-->[com.github.EkoCommunications.UpstraUIKitAndroid:chatkit:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5184e405133ccb8114b333e7df681720\jetified-chatkit-1.11.1\AndroidManifest.xml:26:13-53
-143        <activity
-143-->[com.github.EkoCommunications.UpstraUIKitAndroid:common:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\60ca7daf14b75bb4f60c761f9d35c9bc\jetified-common-1.11.1\AndroidManifest.xml:12:9-15:56
-144            android:name="com.ekoapp.ekosdk.uikit.imagepreview.EkoImagePreviewActivity"
-144-->[com.github.EkoCommunications.UpstraUIKitAndroid:common:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\60ca7daf14b75bb4f60c761f9d35c9bc\jetified-common-1.11.1\AndroidManifest.xml:13:13-88
-145            android:screenOrientation="portrait"
-145-->[com.github.EkoCommunications.UpstraUIKitAndroid:common:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\60ca7daf14b75bb4f60c761f9d35c9bc\jetified-common-1.11.1\AndroidManifest.xml:14:13-49
-146            android:theme="@style/ImagePreviewTheme" />
-146-->[com.github.EkoCommunications.UpstraUIKitAndroid:common:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\60ca7daf14b75bb4f60c761f9d35c9bc\jetified-common-1.11.1\AndroidManifest.xml:15:13-53
-147
-148        <provider
-148-->[com.github.EkoCommunications.UpstraUIKitAndroid:common:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\60ca7daf14b75bb4f60c761f9d35c9bc\jetified-common-1.11.1\AndroidManifest.xml:17:9-25:20
-149            android:name="com.ekoapp.ekosdk.uikit.utils.UiKitProvider"
-149-->[com.github.EkoCommunications.UpstraUIKitAndroid:common:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\60ca7daf14b75bb4f60c761f9d35c9bc\jetified-common-1.11.1\AndroidManifest.xml:18:13-71
-150            android:authorities="com.videoment.videocomment.UikitCommonProvider"
-150-->[com.github.EkoCommunications.UpstraUIKitAndroid:common:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\60ca7daf14b75bb4f60c761f9d35c9bc\jetified-common-1.11.1\AndroidManifest.xml:19:13-71
-151            android:exported="false"
-151-->[com.github.EkoCommunications.UpstraUIKitAndroid:common:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\60ca7daf14b75bb4f60c761f9d35c9bc\jetified-common-1.11.1\AndroidManifest.xml:20:13-37
-152            android:grantUriPermissions="true" >
-152-->[com.github.EkoCommunications.UpstraUIKitAndroid:common:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\60ca7daf14b75bb4f60c761f9d35c9bc\jetified-common-1.11.1\AndroidManifest.xml:21:13-47
-153            <meta-data
-153-->[com.github.EkoCommunications.UpstraUIKitAndroid:common:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\60ca7daf14b75bb4f60c761f9d35c9bc\jetified-common-1.11.1\AndroidManifest.xml:22:13-24:53
-154                android:name="android.support.FILE_PROVIDER_PATHS"
-154-->[com.github.EkoCommunications.UpstraUIKitAndroid:common:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\60ca7daf14b75bb4f60c761f9d35c9bc\jetified-common-1.11.1\AndroidManifest.xml:23:17-67
-155                android:resource="@xml/file_path" />
-155-->[com.github.EkoCommunications.UpstraUIKitAndroid:common:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\60ca7daf14b75bb4f60c761f9d35c9bc\jetified-common-1.11.1\AndroidManifest.xml:24:17-50
-156        </provider>
-157        <provider
-157-->[com.github.EkoCommunications.EkoMessagingSDKAndroid:eko-sdk:4.7.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\c47672d51c4aea33f84f3b4e7c49b5fa\jetified-eko-sdk-4.7.2\AndroidManifest.xml:16:9-20:41
-158            android:name="com.ekoapp.ekosdk.internal.init.EkoSdkInitProvider"
-158-->[com.github.EkoCommunications.EkoMessagingSDKAndroid:eko-sdk:4.7.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\c47672d51c4aea33f84f3b4e7c49b5fa\jetified-eko-sdk-4.7.2\AndroidManifest.xml:17:13-78
-159            android:authorities="com.videoment.videocomment.ekosdk.init.provider"
-159-->[com.github.EkoCommunications.EkoMessagingSDKAndroid:eko-sdk:4.7.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\c47672d51c4aea33f84f3b4e7c49b5fa\jetified-eko-sdk-4.7.2\AndroidManifest.xml:18:13-72
-160            android:exported="false"
-160-->[com.github.EkoCommunications.EkoMessagingSDKAndroid:eko-sdk:4.7.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\c47672d51c4aea33f84f3b4e7c49b5fa\jetified-eko-sdk-4.7.2\AndroidManifest.xml:19:13-37
-161            android:initOrder="10000" />
-161-->[com.github.EkoCommunications.EkoMessagingSDKAndroid:eko-sdk:4.7.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\c47672d51c4aea33f84f3b4e7c49b5fa\jetified-eko-sdk-4.7.2\AndroidManifest.xml:20:13-38
+136-->[com.github.EkoCommunications.UpstraUIKitAndroid:chatkit:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5184e405133ccb8114b333e7df681720\jetified-chatkit-1.11.1\AndroidManifest.xml:25:13-49
+137            android:theme="@style/Base.Theme.EkoApp" />
+137-->[com.github.EkoCommunications.UpstraUIKitAndroid:chatkit:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5184e405133ccb8114b333e7df681720\jetified-chatkit-1.11.1\AndroidManifest.xml:26:13-53
+138        <activity
+138-->[com.github.EkoCommunications.UpstraUIKitAndroid:common:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\60ca7daf14b75bb4f60c761f9d35c9bc\jetified-common-1.11.1\AndroidManifest.xml:12:9-15:56
+139            android:name="com.ekoapp.ekosdk.uikit.imagepreview.EkoImagePreviewActivity"
+139-->[com.github.EkoCommunications.UpstraUIKitAndroid:common:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\60ca7daf14b75bb4f60c761f9d35c9bc\jetified-common-1.11.1\AndroidManifest.xml:13:13-88
+140            android:screenOrientation="portrait"
+140-->[com.github.EkoCommunications.UpstraUIKitAndroid:common:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\60ca7daf14b75bb4f60c761f9d35c9bc\jetified-common-1.11.1\AndroidManifest.xml:14:13-49
+141            android:theme="@style/ImagePreviewTheme" />
+141-->[com.github.EkoCommunications.UpstraUIKitAndroid:common:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\60ca7daf14b75bb4f60c761f9d35c9bc\jetified-common-1.11.1\AndroidManifest.xml:15:13-53
+142
+143        <provider
+143-->[com.github.EkoCommunications.UpstraUIKitAndroid:common:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\60ca7daf14b75bb4f60c761f9d35c9bc\jetified-common-1.11.1\AndroidManifest.xml:17:9-25:20
+144            android:name="com.ekoapp.ekosdk.uikit.utils.UiKitProvider"
+144-->[com.github.EkoCommunications.UpstraUIKitAndroid:common:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\60ca7daf14b75bb4f60c761f9d35c9bc\jetified-common-1.11.1\AndroidManifest.xml:18:13-71
+145            android:authorities="com.videoment.videocomment.UikitCommonProvider"
+145-->[com.github.EkoCommunications.UpstraUIKitAndroid:common:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\60ca7daf14b75bb4f60c761f9d35c9bc\jetified-common-1.11.1\AndroidManifest.xml:19:13-71
+146            android:exported="false"
+146-->[com.github.EkoCommunications.UpstraUIKitAndroid:common:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\60ca7daf14b75bb4f60c761f9d35c9bc\jetified-common-1.11.1\AndroidManifest.xml:20:13-37
+147            android:grantUriPermissions="true" >
+147-->[com.github.EkoCommunications.UpstraUIKitAndroid:common:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\60ca7daf14b75bb4f60c761f9d35c9bc\jetified-common-1.11.1\AndroidManifest.xml:21:13-47
+148            <meta-data
+148-->[com.github.EkoCommunications.UpstraUIKitAndroid:common:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\60ca7daf14b75bb4f60c761f9d35c9bc\jetified-common-1.11.1\AndroidManifest.xml:22:13-24:53
+149                android:name="android.support.FILE_PROVIDER_PATHS"
+149-->[com.github.EkoCommunications.UpstraUIKitAndroid:common:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\60ca7daf14b75bb4f60c761f9d35c9bc\jetified-common-1.11.1\AndroidManifest.xml:23:17-67
+150                android:resource="@xml/file_path" />
+150-->[com.github.EkoCommunications.UpstraUIKitAndroid:common:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\60ca7daf14b75bb4f60c761f9d35c9bc\jetified-common-1.11.1\AndroidManifest.xml:24:17-50
+151        </provider>
+152        <provider
+152-->[com.github.EkoCommunications.EkoMessagingSDKAndroid:eko-sdk:4.7.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\c47672d51c4aea33f84f3b4e7c49b5fa\jetified-eko-sdk-4.7.2\AndroidManifest.xml:16:9-20:41
+153            android:name="com.ekoapp.ekosdk.internal.init.EkoSdkInitProvider"
+153-->[com.github.EkoCommunications.EkoMessagingSDKAndroid:eko-sdk:4.7.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\c47672d51c4aea33f84f3b4e7c49b5fa\jetified-eko-sdk-4.7.2\AndroidManifest.xml:17:13-78
+154            android:authorities="com.videoment.videocomment.ekosdk.init.provider"
+154-->[com.github.EkoCommunications.EkoMessagingSDKAndroid:eko-sdk:4.7.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\c47672d51c4aea33f84f3b4e7c49b5fa\jetified-eko-sdk-4.7.2\AndroidManifest.xml:18:13-72
+155            android:exported="false"
+155-->[com.github.EkoCommunications.EkoMessagingSDKAndroid:eko-sdk:4.7.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\c47672d51c4aea33f84f3b4e7c49b5fa\jetified-eko-sdk-4.7.2\AndroidManifest.xml:19:13-37
+156            android:initOrder="10000" />
+156-->[com.github.EkoCommunications.EkoMessagingSDKAndroid:eko-sdk:4.7.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\c47672d51c4aea33f84f3b4e7c49b5fa\jetified-eko-sdk-4.7.2\AndroidManifest.xml:20:13-38
+157
+158        <service
+158-->[com.github.EkoCommunications.EkoMessagingSDKAndroid:eko-sdk:4.7.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\c47672d51c4aea33f84f3b4e7c49b5fa\jetified-eko-sdk-4.7.2\AndroidManifest.xml:22:9-25:40
+159            android:name="com.ekoapp.gotevupstra.uploadservice.UploadService"
+159-->[com.github.EkoCommunications.EkoMessagingSDKAndroid:eko-sdk:4.7.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\c47672d51c4aea33f84f3b4e7c49b5fa\jetified-eko-sdk-4.7.2\AndroidManifest.xml:23:13-78
+160            android:enabled="true"
+160-->[com.github.EkoCommunications.EkoMessagingSDKAndroid:eko-sdk:4.7.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\c47672d51c4aea33f84f3b4e7c49b5fa\jetified-eko-sdk-4.7.2\AndroidManifest.xml:24:13-35
+161            android:exported="false" />
+161-->[com.github.EkoCommunications.EkoMessagingSDKAndroid:eko-sdk:4.7.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\c47672d51c4aea33f84f3b4e7c49b5fa\jetified-eko-sdk-4.7.2\AndroidManifest.xml:25:13-37
 162
-163        <service
-163-->[com.github.EkoCommunications.EkoMessagingSDKAndroid:eko-sdk:4.7.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\c47672d51c4aea33f84f3b4e7c49b5fa\jetified-eko-sdk-4.7.2\AndroidManifest.xml:22:9-25:40
-164            android:name="com.ekoapp.gotevupstra.uploadservice.UploadService"
-164-->[com.github.EkoCommunications.EkoMessagingSDKAndroid:eko-sdk:4.7.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\c47672d51c4aea33f84f3b4e7c49b5fa\jetified-eko-sdk-4.7.2\AndroidManifest.xml:23:13-78
-165            android:enabled="true"
-165-->[com.github.EkoCommunications.EkoMessagingSDKAndroid:eko-sdk:4.7.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\c47672d51c4aea33f84f3b4e7c49b5fa\jetified-eko-sdk-4.7.2\AndroidManifest.xml:24:13-35
+163        <provider
+163-->[com.github.EkoCommunications.UpstraUIKitAndroid:logging:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\785d9c8b0c61a2d47ee0a81225eaedca\jetified-logging-1.11.1\AndroidManifest.xml:12:9-15:40
+164            android:name="com.ekoapp.ekosdk.uikit.logging.UiKitProvider"
+164-->[com.github.EkoCommunications.UpstraUIKitAndroid:logging:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\785d9c8b0c61a2d47ee0a81225eaedca\jetified-logging-1.11.1\AndroidManifest.xml:13:13-73
+165            android:authorities="com.videoment.videocomment.UikitLoggingProvider"
+165-->[com.github.EkoCommunications.UpstraUIKitAndroid:logging:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\785d9c8b0c61a2d47ee0a81225eaedca\jetified-logging-1.11.1\AndroidManifest.xml:14:13-72
 166            android:exported="false" />
-166-->[com.github.EkoCommunications.EkoMessagingSDKAndroid:eko-sdk:4.7.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\c47672d51c4aea33f84f3b4e7c49b5fa\jetified-eko-sdk-4.7.2\AndroidManifest.xml:25:13-37
+166-->[com.github.EkoCommunications.UpstraUIKitAndroid:logging:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\785d9c8b0c61a2d47ee0a81225eaedca\jetified-logging-1.11.1\AndroidManifest.xml:15:13-37
 167
-168        <provider
-168-->[com.github.EkoCommunications.UpstraUIKitAndroid:logging:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\785d9c8b0c61a2d47ee0a81225eaedca\jetified-logging-1.11.1\AndroidManifest.xml:12:9-15:40
-169            android:name="com.ekoapp.ekosdk.uikit.logging.UiKitProvider"
-169-->[com.github.EkoCommunications.UpstraUIKitAndroid:logging:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\785d9c8b0c61a2d47ee0a81225eaedca\jetified-logging-1.11.1\AndroidManifest.xml:13:13-73
-170            android:authorities="com.videoment.videocomment.UikitLoggingProvider"
-170-->[com.github.EkoCommunications.UpstraUIKitAndroid:logging:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\785d9c8b0c61a2d47ee0a81225eaedca\jetified-logging-1.11.1\AndroidManifest.xml:14:13-72
-171            android:exported="false" />
-171-->[com.github.EkoCommunications.UpstraUIKitAndroid:logging:1.11.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\785d9c8b0c61a2d47ee0a81225eaedca\jetified-logging-1.11.1\AndroidManifest.xml:15:13-37
-172
-173        <activity android:name="com.zhihu.matisse.ui.MatisseActivity" />
-173-->[com.zhihu.android:matisse:0.5.3-beta3] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5fe9ca7696af2e1f5e6297db5781da27\jetified-matisse-0.5.3-beta3\AndroidManifest.xml:28:9-73
-173-->[com.zhihu.android:matisse:0.5.3-beta3] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5fe9ca7696af2e1f5e6297db5781da27\jetified-matisse-0.5.3-beta3\AndroidManifest.xml:28:19-70
-174        <activity android:name="com.zhihu.matisse.internal.ui.AlbumPreviewActivity" />
-174-->[com.zhihu.android:matisse:0.5.3-beta3] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5fe9ca7696af2e1f5e6297db5781da27\jetified-matisse-0.5.3-beta3\AndroidManifest.xml:29:9-87
-174-->[com.zhihu.android:matisse:0.5.3-beta3] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5fe9ca7696af2e1f5e6297db5781da27\jetified-matisse-0.5.3-beta3\AndroidManifest.xml:29:19-84
-175        <activity android:name="com.zhihu.matisse.internal.ui.SelectedPreviewActivity" />
-175-->[com.zhihu.android:matisse:0.5.3-beta3] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5fe9ca7696af2e1f5e6297db5781da27\jetified-matisse-0.5.3-beta3\AndroidManifest.xml:30:9-90
-175-->[com.zhihu.android:matisse:0.5.3-beta3] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5fe9ca7696af2e1f5e6297db5781da27\jetified-matisse-0.5.3-beta3\AndroidManifest.xml:30:19-87
-176
+168        <activity android:name="com.zhihu.matisse.ui.MatisseActivity" />
+168-->[com.zhihu.android:matisse:0.5.3-beta3] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5fe9ca7696af2e1f5e6297db5781da27\jetified-matisse-0.5.3-beta3\AndroidManifest.xml:28:9-73
+168-->[com.zhihu.android:matisse:0.5.3-beta3] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5fe9ca7696af2e1f5e6297db5781da27\jetified-matisse-0.5.3-beta3\AndroidManifest.xml:28:19-70
+169        <activity android:name="com.zhihu.matisse.internal.ui.AlbumPreviewActivity" />
+169-->[com.zhihu.android:matisse:0.5.3-beta3] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5fe9ca7696af2e1f5e6297db5781da27\jetified-matisse-0.5.3-beta3\AndroidManifest.xml:29:9-87
+169-->[com.zhihu.android:matisse:0.5.3-beta3] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5fe9ca7696af2e1f5e6297db5781da27\jetified-matisse-0.5.3-beta3\AndroidManifest.xml:29:19-84
+170        <activity android:name="com.zhihu.matisse.internal.ui.SelectedPreviewActivity" />
+170-->[com.zhihu.android:matisse:0.5.3-beta3] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5fe9ca7696af2e1f5e6297db5781da27\jetified-matisse-0.5.3-beta3\AndroidManifest.xml:30:9-90
+170-->[com.zhihu.android:matisse:0.5.3-beta3] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\5fe9ca7696af2e1f5e6297db5781da27\jetified-matisse-0.5.3-beta3\AndroidManifest.xml:30:19-87
+171
+172        <provider
+172-->[com.github.EkoCommunications.EkoMessagingSDKAndroid:core-push:4.7.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\0ee6a5b44d77b9cf585790406b1b1595\jetified-core-push-4.7.2\AndroidManifest.xml:12:9-16:41
+173            android:name="com.ekoapp.push.PushInitProvider"
+173-->[com.github.EkoCommunications.EkoMessagingSDKAndroid:core-push:4.7.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\0ee6a5b44d77b9cf585790406b1b1595\jetified-core-push-4.7.2\AndroidManifest.xml:13:13-60
+174            android:authorities="com.videoment.videocomment.push.init.provider"
+174-->[com.github.EkoCommunications.EkoMessagingSDKAndroid:core-push:4.7.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\0ee6a5b44d77b9cf585790406b1b1595\jetified-core-push-4.7.2\AndroidManifest.xml:14:13-70
+175            android:exported="false"
+175-->[com.github.EkoCommunications.EkoMessagingSDKAndroid:core-push:4.7.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\0ee6a5b44d77b9cf585790406b1b1595\jetified-core-push-4.7.2\AndroidManifest.xml:15:13-37
+176            android:initOrder="10000" />
+176-->[com.github.EkoCommunications.EkoMessagingSDKAndroid:core-push:4.7.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\0ee6a5b44d77b9cf585790406b1b1595\jetified-core-push-4.7.2\AndroidManifest.xml:16:13-38
 177        <provider
-177-->[com.github.EkoCommunications.EkoMessagingSDKAndroid:core-push:4.7.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\0ee6a5b44d77b9cf585790406b1b1595\jetified-core-push-4.7.2\AndroidManifest.xml:12:9-16:41
-178            android:name="com.ekoapp.push.PushInitProvider"
-178-->[com.github.EkoCommunications.EkoMessagingSDKAndroid:core-push:4.7.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\0ee6a5b44d77b9cf585790406b1b1595\jetified-core-push-4.7.2\AndroidManifest.xml:13:13-60
-179            android:authorities="com.videoment.videocomment.push.init.provider"
-179-->[com.github.EkoCommunications.EkoMessagingSDKAndroid:core-push:4.7.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\0ee6a5b44d77b9cf585790406b1b1595\jetified-core-push-4.7.2\AndroidManifest.xml:14:13-70
-180            android:exported="false"
-180-->[com.github.EkoCommunications.EkoMessagingSDKAndroid:core-push:4.7.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\0ee6a5b44d77b9cf585790406b1b1595\jetified-core-push-4.7.2\AndroidManifest.xml:15:13-37
-181            android:initOrder="10000" />
-181-->[com.github.EkoCommunications.EkoMessagingSDKAndroid:core-push:4.7.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\0ee6a5b44d77b9cf585790406b1b1595\jetified-core-push-4.7.2\AndroidManifest.xml:16:13-38
-182        <provider
-182-->[com.squareup.picasso:picasso:2.71828] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\836c921253165da17e87db20af2ed8d5\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
-183            android:name="com.squareup.picasso.PicassoProvider"
-183-->[com.squareup.picasso:picasso:2.71828] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\836c921253165da17e87db20af2ed8d5\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
-184            android:authorities="com.videoment.videocomment.com.squareup.picasso"
-184-->[com.squareup.picasso:picasso:2.71828] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\836c921253165da17e87db20af2ed8d5\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
-185            android:exported="false" />
-185-->[com.squareup.picasso:picasso:2.71828] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\836c921253165da17e87db20af2ed8d5\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
-186
+177-->[com.squareup.picasso:picasso:2.71828] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\836c921253165da17e87db20af2ed8d5\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+178            android:name="com.squareup.picasso.PicassoProvider"
+178-->[com.squareup.picasso:picasso:2.71828] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\836c921253165da17e87db20af2ed8d5\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+179            android:authorities="com.videoment.videocomment.com.squareup.picasso"
+179-->[com.squareup.picasso:picasso:2.71828] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\836c921253165da17e87db20af2ed8d5\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+180            android:exported="false" />
+180-->[com.squareup.picasso:picasso:2.71828] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\836c921253165da17e87db20af2ed8d5\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+181
+182        <receiver
+182-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:29:9-33:20
+183            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+183-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:30:13-85
+184            android:enabled="true"
+184-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:31:13-35
+185            android:exported="false" >
+185-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:32:13-37
+186        </receiver>
 187        <receiver
-187-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:29:9-33:20
-188            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-188-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:30:13-85
+187-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:34:9-42:20
+188            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+188-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:35:13-100
 189            android:enabled="true"
-189-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:31:13-35
-190            android:exported="false" >
-190-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:32:13-37
-191        </receiver>
-192        <receiver
-192-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:34:9-42:20
-193            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-193-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:35:13-100
-194            android:enabled="true"
-194-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:36:13-35
-195            android:exported="true"
-195-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:37:13-36
-196            android:permission="android.permission.INSTALL_PACKAGES" >
-196-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:38:13-69
-197            <intent-filter>
-197-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:39:13-41:29
-198                <action android:name="com.android.vending.INSTALL_REFERRER" />
-198-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:40:17-79
-198-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:40:25-76
-199            </intent-filter>
-200        </receiver>
-201
-202        <service
-202-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:44:9-47:40
-203            android:name="com.google.android.gms.measurement.AppMeasurementService"
-203-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:45:13-84
-204            android:enabled="true"
-204-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:46:13-35
-205            android:exported="false" />
-205-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:47:13-37
+189-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:36:13-35
+190            android:exported="true"
+190-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:37:13-36
+191            android:permission="android.permission.INSTALL_PACKAGES" >
+191-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:38:13-69
+192            <intent-filter>
+192-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:39:13-41:29
+193                <action android:name="com.android.vending.INSTALL_REFERRER" />
+193-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:40:17-79
+193-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:40:25-76
+194            </intent-filter>
+195        </receiver>
+196
+197        <service
+197-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:44:9-47:40
+198            android:name="com.google.android.gms.measurement.AppMeasurementService"
+198-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:45:13-84
+199            android:enabled="true"
+199-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:46:13-35
+200            android:exported="false" />
+200-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:47:13-37
+201        <service
+201-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:48:9-52:72
+202            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+202-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:49:13-87
+203            android:enabled="true"
+203-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:50:13-35
+204            android:exported="false"
+204-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:51:13-37
+205            android:permission="android.permission.BIND_JOB_SERVICE" />
+205-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:52:13-69
 206        <service
-206-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:48:9-52:72
-207            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-207-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:49:13-87
-208            android:enabled="true"
-208-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:50:13-35
-209            android:exported="false"
-209-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:51:13-37
-210            android:permission="android.permission.BIND_JOB_SERVICE" />
-210-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\35f0aee045251ef38511894d56b38935\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:52:13-69
-211        <service
-211-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c2ca389c5d66825c86fa4ef1aba4fb3\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:27:9-33:19
-212            android:name="com.google.firebase.components.ComponentDiscoveryService"
-212-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c2ca389c5d66825c86fa4ef1aba4fb3\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:28:13-84
-213            android:exported="false" >
-213-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c2ca389c5d66825c86fa4ef1aba4fb3\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:29:13-37
-214            <meta-data
-214-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c2ca389c5d66825c86fa4ef1aba4fb3\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:30:13-32:85
-215                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-215-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c2ca389c5d66825c86fa4ef1aba4fb3\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:31:17-139
-216                android:value="com.google.firebase.components.ComponentRegistrar" />
-216-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c2ca389c5d66825c86fa4ef1aba4fb3\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:32:17-82
-217            <meta-data
-217-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:32:13-34:85
-218                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-218-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:33:17-96
-219                android:value="com.google.firebase.components.ComponentRegistrar" />
-219-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:34:17-82
-220        </service>
-221
-222        <receiver
-222-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:37:9-44:20
-223            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-223-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:38:13-78
-224            android:exported="true"
-224-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:39:13-36
-225            android:permission="com.google.android.c2dm.permission.SEND" >
-225-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:40:13-73
-226            <intent-filter>
-226-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:41:13-43:29
-227                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-227-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:42:17-81
-227-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:42:25-78
-228            </intent-filter>
-229        </receiver>
-230        <!--
-231             FirebaseInstanceIdService performs security checks at runtime,
-232             no need for explicit permissions despite exported="true"
-233        -->
-234        <service
-234-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:50:9-56:19
-235            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
-235-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:51:13-77
-236            android:exported="true" >
-236-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:52:13-36
-237            <intent-filter android:priority="-500" >
-237-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:53:13-55:29
-237-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:53:28-51
-238                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-238-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:54:17-80
-238-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:54:25-77
-239            </intent-filter>
-240        </service>
-241
-242        <provider
-242-->[com.google.firebase:firebase-common:16.1.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\0bb924c02031e8eab309f8c40d7f25ed\jetified-firebase-common-16.1.0\AndroidManifest.xml:12:9-16:39
-243            android:name="com.google.firebase.provider.FirebaseInitProvider"
-243-->[com.google.firebase:firebase-common:16.1.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\0bb924c02031e8eab309f8c40d7f25ed\jetified-firebase-common-16.1.0\AndroidManifest.xml:13:13-77
-244            android:authorities="com.videoment.videocomment.firebaseinitprovider"
-244-->[com.google.firebase:firebase-common:16.1.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\0bb924c02031e8eab309f8c40d7f25ed\jetified-firebase-common-16.1.0\AndroidManifest.xml:14:13-72
+206-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c2ca389c5d66825c86fa4ef1aba4fb3\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:27:9-33:19
+207            android:name="com.google.firebase.components.ComponentDiscoveryService"
+207-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c2ca389c5d66825c86fa4ef1aba4fb3\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:28:13-84
+208            android:exported="false" >
+208-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c2ca389c5d66825c86fa4ef1aba4fb3\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:29:13-37
+209            <meta-data
+209-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c2ca389c5d66825c86fa4ef1aba4fb3\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:30:13-32:85
+210                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+210-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c2ca389c5d66825c86fa4ef1aba4fb3\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:31:17-139
+211                android:value="com.google.firebase.components.ComponentRegistrar" />
+211-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c2ca389c5d66825c86fa4ef1aba4fb3\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:32:17-82
+212            <meta-data
+212-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:32:13-34:85
+213                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+213-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:33:17-96
+214                android:value="com.google.firebase.components.ComponentRegistrar" />
+214-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:34:17-82
+215        </service>
+216
+217        <receiver
+217-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:37:9-44:20
+218            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+218-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:38:13-78
+219            android:exported="true"
+219-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:39:13-36
+220            android:permission="com.google.android.c2dm.permission.SEND" >
+220-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:40:13-73
+221            <intent-filter>
+221-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:41:13-43:29
+222                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+222-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:42:17-81
+222-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:42:25-78
+223            </intent-filter>
+224        </receiver>
+225        <!--
+226             FirebaseInstanceIdService performs security checks at runtime,
+227             no need for explicit permissions despite exported="true"
+228        -->
+229        <service
+229-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:50:9-56:19
+230            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+230-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:51:13-77
+231            android:exported="true" >
+231-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:52:13-36
+232            <intent-filter android:priority="-500" >
+232-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:53:13-55:29
+232-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:53:28-51
+233                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+233-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:54:17-80
+233-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\1c17c98778f060804a00cf3566f5b57f\jetified-firebase-iid-17.1.2\AndroidManifest.xml:54:25-77
+234            </intent-filter>
+235        </service>
+236
+237        <provider
+237-->[com.google.firebase:firebase-common:16.1.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\0bb924c02031e8eab309f8c40d7f25ed\jetified-firebase-common-16.1.0\AndroidManifest.xml:12:9-16:39
+238            android:name="com.google.firebase.provider.FirebaseInitProvider"
+238-->[com.google.firebase:firebase-common:16.1.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\0bb924c02031e8eab309f8c40d7f25ed\jetified-firebase-common-16.1.0\AndroidManifest.xml:13:13-77
+239            android:authorities="com.videoment.videocomment.firebaseinitprovider"
+239-->[com.google.firebase:firebase-common:16.1.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\0bb924c02031e8eab309f8c40d7f25ed\jetified-firebase-common-16.1.0\AndroidManifest.xml:14:13-72
+240            android:exported="false"
+240-->[com.google.firebase:firebase-common:16.1.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\0bb924c02031e8eab309f8c40d7f25ed\jetified-firebase-common-16.1.0\AndroidManifest.xml:15:13-37
+241            android:initOrder="100" />
+241-->[com.google.firebase:firebase-common:16.1.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\0bb924c02031e8eab309f8c40d7f25ed\jetified-firebase-common-16.1.0\AndroidManifest.xml:16:13-36
+242
+243        <activity
+243-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\8e3029a462446c19cb93b0a72bf6fba4\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+244            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+244-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\8e3029a462446c19cb93b0a72bf6fba4\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
 245            android:exported="false"
-245-->[com.google.firebase:firebase-common:16.1.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\0bb924c02031e8eab309f8c40d7f25ed\jetified-firebase-common-16.1.0\AndroidManifest.xml:15:13-37
-246            android:initOrder="100" />
-246-->[com.google.firebase:firebase-common:16.1.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\0bb924c02031e8eab309f8c40d7f25ed\jetified-firebase-common-16.1.0\AndroidManifest.xml:16:13-36
+245-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\8e3029a462446c19cb93b0a72bf6fba4\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+246            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+246-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\8e3029a462446c19cb93b0a72bf6fba4\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
 247
-248        <activity
-248-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\8e3029a462446c19cb93b0a72bf6fba4\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
-249            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-249-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\8e3029a462446c19cb93b0a72bf6fba4\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
-250            android:exported="false"
-250-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\8e3029a462446c19cb93b0a72bf6fba4\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
-251            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-251-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\8e3029a462446c19cb93b0a72bf6fba4\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
-252
-253        <meta-data
-253-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\0e3cd29d2fb7407eb0628f548f54165f\jetified-play-services-basement-16.2.0\AndroidManifest.xml:23:9-25:69
-254            android:name="com.google.android.gms.version"
-254-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\0e3cd29d2fb7407eb0628f548f54165f\jetified-play-services-basement-16.2.0\AndroidManifest.xml:24:13-58
-255            android:value="@integer/google_play_services_version" />
-255-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\0e3cd29d2fb7407eb0628f548f54165f\jetified-play-services-basement-16.2.0\AndroidManifest.xml:25:13-66
-256
-257        <activity
-257-->[androidx.test:core:1.3.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\2e7c61838b2cd96d81e9aba818202edd\jetified-core-1.3.0\AndroidManifest.xml:27:9-33:20
-258            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
-258-->[androidx.test:core:1.3.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\2e7c61838b2cd96d81e9aba818202edd\jetified-core-1.3.0\AndroidManifest.xml:28:13-99
-259            android:theme="@android:style/Theme" >
-259-->[androidx.test:core:1.3.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\2e7c61838b2cd96d81e9aba818202edd\jetified-core-1.3.0\AndroidManifest.xml:29:13-49
-260            <intent-filter>
-260-->[androidx.test:core:1.3.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\2e7c61838b2cd96d81e9aba818202edd\jetified-core-1.3.0\AndroidManifest.xml:30:13-32:29
-261                <action android:name="android.intent.action.MAIN" />
-261-->C:\Users\napha\AndroidStudioProjects\VideoComment\app\src\main\AndroidManifest.xml:27:17-69
-261-->C:\Users\napha\AndroidStudioProjects\VideoComment\app\src\main\AndroidManifest.xml:27:25-66
-262            </intent-filter>
-263        </activity>
-264        <activity
-264-->[androidx.test:core:1.3.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\2e7c61838b2cd96d81e9aba818202edd\jetified-core-1.3.0\AndroidManifest.xml:34:9-40:20
-265            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
-265-->[androidx.test:core:1.3.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\2e7c61838b2cd96d81e9aba818202edd\jetified-core-1.3.0\AndroidManifest.xml:35:13-95
-266            android:theme="@android:style/Theme" >
-266-->[androidx.test:core:1.3.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\2e7c61838b2cd96d81e9aba818202edd\jetified-core-1.3.0\AndroidManifest.xml:36:13-49
-267            <intent-filter>
-267-->[androidx.test:core:1.3.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\2e7c61838b2cd96d81e9aba818202edd\jetified-core-1.3.0\AndroidManifest.xml:30:13-32:29
-268                <action android:name="android.intent.action.MAIN" />
-268-->C:\Users\napha\AndroidStudioProjects\VideoComment\app\src\main\AndroidManifest.xml:27:17-69
-268-->C:\Users\napha\AndroidStudioProjects\VideoComment\app\src\main\AndroidManifest.xml:27:25-66
-269            </intent-filter>
-270        </activity>
-271        <activity
-271-->[androidx.test:core:1.3.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\2e7c61838b2cd96d81e9aba818202edd\jetified-core-1.3.0\AndroidManifest.xml:41:9-47:20
-272            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
-272-->[androidx.test:core:1.3.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\2e7c61838b2cd96d81e9aba818202edd\jetified-core-1.3.0\AndroidManifest.xml:42:13-103
-273            android:theme="@android:style/Theme.Dialog" >
-273-->[androidx.test:core:1.3.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\2e7c61838b2cd96d81e9aba818202edd\jetified-core-1.3.0\AndroidManifest.xml:43:13-56
-274            <intent-filter>
-274-->[androidx.test:core:1.3.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\2e7c61838b2cd96d81e9aba818202edd\jetified-core-1.3.0\AndroidManifest.xml:30:13-32:29
-275                <action android:name="android.intent.action.MAIN" />
-275-->C:\Users\napha\AndroidStudioProjects\VideoComment\app\src\main\AndroidManifest.xml:27:17-69
-275-->C:\Users\napha\AndroidStudioProjects\VideoComment\app\src\main\AndroidManifest.xml:27:25-66
-276            </intent-filter>
-277        </activity>
-278
-279        <service
-279-->[androidx.room:room-runtime:2.2.5] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\7af6c169813468275e9ca0afeac206d7\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
-280            android:name="androidx.room.MultiInstanceInvalidationService"
-280-->[androidx.room:room-runtime:2.2.5] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\7af6c169813468275e9ca0afeac206d7\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
-281            android:directBootAware="true"
-281-->[androidx.room:room-runtime:2.2.5] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\7af6c169813468275e9ca0afeac206d7\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
-282            android:exported="false" />
-282-->[androidx.room:room-runtime:2.2.5] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\7af6c169813468275e9ca0afeac206d7\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
-283    </application>
-284
-285</manifest>
+248        <meta-data
+248-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\0e3cd29d2fb7407eb0628f548f54165f\jetified-play-services-basement-16.2.0\AndroidManifest.xml:23:9-25:69
+249            android:name="com.google.android.gms.version"
+249-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\0e3cd29d2fb7407eb0628f548f54165f\jetified-play-services-basement-16.2.0\AndroidManifest.xml:24:13-58
+250            android:value="@integer/google_play_services_version" />
+250-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\0e3cd29d2fb7407eb0628f548f54165f\jetified-play-services-basement-16.2.0\AndroidManifest.xml:25:13-66
+251
+252        <activity
+252-->[androidx.test:core:1.3.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\2e7c61838b2cd96d81e9aba818202edd\jetified-core-1.3.0\AndroidManifest.xml:27:9-33:20
+253            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+253-->[androidx.test:core:1.3.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\2e7c61838b2cd96d81e9aba818202edd\jetified-core-1.3.0\AndroidManifest.xml:28:13-99
+254            android:theme="@android:style/Theme" >
+254-->[androidx.test:core:1.3.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\2e7c61838b2cd96d81e9aba818202edd\jetified-core-1.3.0\AndroidManifest.xml:29:13-49
+255            <intent-filter>
+255-->[androidx.test:core:1.3.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\2e7c61838b2cd96d81e9aba818202edd\jetified-core-1.3.0\AndroidManifest.xml:30:13-32:29
+256                <action android:name="android.intent.action.MAIN" />
+256-->C:\Users\napha\AndroidStudioProjects\VideoComment\app\src\main\AndroidManifest.xml:27:17-69
+256-->C:\Users\napha\AndroidStudioProjects\VideoComment\app\src\main\AndroidManifest.xml:27:25-66
+257            </intent-filter>
+258        </activity>
+259        <activity
+259-->[androidx.test:core:1.3.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\2e7c61838b2cd96d81e9aba818202edd\jetified-core-1.3.0\AndroidManifest.xml:34:9-40:20
+260            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+260-->[androidx.test:core:1.3.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\2e7c61838b2cd96d81e9aba818202edd\jetified-core-1.3.0\AndroidManifest.xml:35:13-95
+261            android:theme="@android:style/Theme" >
+261-->[androidx.test:core:1.3.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\2e7c61838b2cd96d81e9aba818202edd\jetified-core-1.3.0\AndroidManifest.xml:36:13-49
+262            <intent-filter>
+262-->[androidx.test:core:1.3.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\2e7c61838b2cd96d81e9aba818202edd\jetified-core-1.3.0\AndroidManifest.xml:30:13-32:29
+263                <action android:name="android.intent.action.MAIN" />
+263-->C:\Users\napha\AndroidStudioProjects\VideoComment\app\src\main\AndroidManifest.xml:27:17-69
+263-->C:\Users\napha\AndroidStudioProjects\VideoComment\app\src\main\AndroidManifest.xml:27:25-66
+264            </intent-filter>
+265        </activity>
+266        <activity
+266-->[androidx.test:core:1.3.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\2e7c61838b2cd96d81e9aba818202edd\jetified-core-1.3.0\AndroidManifest.xml:41:9-47:20
+267            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+267-->[androidx.test:core:1.3.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\2e7c61838b2cd96d81e9aba818202edd\jetified-core-1.3.0\AndroidManifest.xml:42:13-103
+268            android:theme="@android:style/Theme.Dialog" >
+268-->[androidx.test:core:1.3.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\2e7c61838b2cd96d81e9aba818202edd\jetified-core-1.3.0\AndroidManifest.xml:43:13-56
+269            <intent-filter>
+269-->[androidx.test:core:1.3.0] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\2e7c61838b2cd96d81e9aba818202edd\jetified-core-1.3.0\AndroidManifest.xml:30:13-32:29
+270                <action android:name="android.intent.action.MAIN" />
+270-->C:\Users\napha\AndroidStudioProjects\VideoComment\app\src\main\AndroidManifest.xml:27:17-69
+270-->C:\Users\napha\AndroidStudioProjects\VideoComment\app\src\main\AndroidManifest.xml:27:25-66
+271            </intent-filter>
+272        </activity>
+273
+274        <service
+274-->[androidx.room:room-runtime:2.2.5] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\7af6c169813468275e9ca0afeac206d7\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+275            android:name="androidx.room.MultiInstanceInvalidationService"
+275-->[androidx.room:room-runtime:2.2.5] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\7af6c169813468275e9ca0afeac206d7\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+276            android:directBootAware="true"
+276-->[androidx.room:room-runtime:2.2.5] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\7af6c169813468275e9ca0afeac206d7\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+277            android:exported="false" />
+277-->[androidx.room:room-runtime:2.2.5] C:\Users\napha\.gradle\caches\transforms-2\files-2.1\7af6c169813468275e9ca0afeac206d7\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+278    </application>
+279
+280</manifest>

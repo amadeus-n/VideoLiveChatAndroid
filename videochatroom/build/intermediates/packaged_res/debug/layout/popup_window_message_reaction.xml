@@ -8,7 +8,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/background_corner_reaction"
+        android:background="@drawable/amity_background_corner_reaction"
         android:padding="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,8 +26,8 @@
 
             <TextView
                 android:id="@+id/sendLoveEmoji"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="@dimen/amity_video_sample_reaction_button_width"
+                android:layout_height="@dimen/amity_video_sample_reaction_button_height"
                 android:layout_marginStart="5dp"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:text="@string/love_emoji"
@@ -38,8 +38,8 @@
 
             <TextView
                 android:id="@+id/sendSmileEmoji"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="@dimen/amity_video_sample_reaction_button_width"
+                android:layout_height="@dimen/amity_video_sample_reaction_button_height"
                 android:layout_marginStart="5dp"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:text="@string/smile_emoji"
@@ -50,8 +50,8 @@
 
             <TextView
                 android:id="@+id/sendlolEmoji"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="@dimen/amity_video_sample_reaction_button_width"
+                android:layout_height="@dimen/amity_video_sample_reaction_button_height"
                 android:layout_marginStart="5dp"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:text="@string/lol_face_emoji"
@@ -62,8 +62,8 @@
 
             <TextView
                 android:id="@+id/sendHeartEyeEmoji"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="@dimen/amity_video_sample_reaction_button_width"
+                android:layout_height="@dimen/amity_video_sample_reaction_button_height"
                 android:layout_marginStart="5dp"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:text="@string/heart_eye_emoji"
@@ -75,8 +75,8 @@
 
             <TextView
                 android:id="@+id/sendFiremoji"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="@dimen/amity_video_sample_reaction_button_width"
+                android:layout_height="@dimen/amity_video_sample_reaction_button_height"
                 android:layout_marginStart="5dp"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:text="@string/fire_emoji"

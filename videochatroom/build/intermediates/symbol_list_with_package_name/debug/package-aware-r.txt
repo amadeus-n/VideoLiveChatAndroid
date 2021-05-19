@@ -1,4 +1,4 @@
-com.videoment.videochatroom
+com.amityco.videochatroom
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -1148,6 +1148,10 @@ color amityColorWhite
 color amityMessageBubble
 color amityMessageBubbleInverse
 color amity_button_bg_selector
+color amity_video_sample_color_background_reaction
+color amity_video_sample_message_color
+color amity_video_sample_text_input_background
+color amity_video_sample_username_color
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
 color background_floating_material_dark
@@ -1167,12 +1171,9 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
-color chat_name
-color chatmsg
 color checkbox_themeable_attribute_color
 color color_background_balloon_msg
 color color_background_balloon_msg_landscape_opacity_40
-color color_background_reaction
 color color_line_space
 color color_link_url
 color color_reply_username
@@ -1564,6 +1565,18 @@ dimen amity_twenty_four
 dimen amity_twenty_seven
 dimen amity_two
 dimen amity_two_hundred_twenty
+dimen amity_video_sample_message_profile_height
+dimen amity_video_sample_message_profile_width
+dimen amity_video_sample_message_text_size
+dimen amity_video_sample_reaction_button_height
+dimen amity_video_sample_reaction_button_width
+dimen amity_video_sample_scroll_down_text_size
+dimen amity_video_sample_send_button_height
+dimen amity_video_sample_send_button_width
+dimen amity_video_sample_text_input_text_size
+dimen amity_video_sample_username_text_size
+dimen amity_video_sample_userprofile_height
+dimen amity_video_sample_userprofile_width
 dimen amity_zero
 dimen appcompat_dialog_background_inset
 dimen cardview_compat_inset_shadow
@@ -2008,6 +2021,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable amity_background_corner_reaction
 drawable amity_bg_border
 drawable amity_bg_bottom_naviation
 drawable amity_bg_image_count
@@ -2015,6 +2029,7 @@ drawable amity_bg_search
 drawable amity_bg_view_replies
 drawable amity_btn_like_normal
 drawable amity_btn_liked_pressed
+drawable amity_ic_action_send
 drawable amity_ic_add
 drawable amity_ic_add_black
 drawable amity_ic_add_members
@@ -2120,7 +2135,6 @@ drawable amity_ic_zip_large
 drawable amity_view_replies
 drawable avd_hide_password
 drawable avd_show_password
-drawable background_corner_reaction
 drawable bg_chat_text_input
 drawable bg_corner_chat_list_item
 drawable bg_item_chat_selector
@@ -2243,7 +2257,6 @@ drawable fetch_notification_resume
 drawable fetch_notification_retry
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
-drawable ic_action_send
 drawable ic_arrow_down_24dp
 drawable ic_arrow_drop_down_white_24dp
 drawable ic_check_white_18dp
@@ -3781,6 +3794,8 @@ string amity_update_comment_error_message
 string amity_update_reply_error_message
 string amity_upload_failed_profile_picture
 string amity_upload_incomplete
+string amity_video_sample_text_input_hint
+string amity_video_sample_text_scroll_down
 string amity_view_all_comments
 string amity_view_all_files
 string amity_view_all_replies
@@ -3916,7 +3931,6 @@ string heart_eye_emoji
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
-string livechat_message_box_hint
 string lol_face_emoji
 string love_emoji
 string material_clock_display_divider

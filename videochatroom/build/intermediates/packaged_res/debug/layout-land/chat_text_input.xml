@@ -17,8 +17,8 @@
 
         <ImageView
             android:id="@+id/profileDarkImageView"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
+            android:layout_width="@dimen/amity_video_sample_userprofile_width"
+            android:layout_height="@dimen/amity_video_sample_userprofile_height"
             android:adjustViewBounds="true"
             android:padding="2dp"
             android:src="@drawable/amity_ic_default_profile1"
@@ -35,11 +35,11 @@
             android:layout_weight="1"
             android:ems = "35"
             android:background="@drawable/bg_chat_text_input"
-            android:hint="@string/livechat_message_box_hint"
+            android:hint="@string/amity_video_sample_text_input_hint"
             android:paddingStart="16dp"
             android:paddingEnd="50dp"
             android:singleLine="true"
-            android:textColor="@color/chatmsg"
+            android:textColor="@color/amity_video_sample_message_color"
             android:textSize="14sp"
             android:textStyle="normal|bold"
             app:layout_constraintBottom_toBottomOf="@+id/profileDarkImageView"
@@ -49,11 +49,11 @@
 
         <ImageButton
             android:id="@+id/sendChatImageView"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="@dimen/amity_video_sample_send_button_width"
+            android:layout_height="@dimen/amity_video_sample_send_button_width"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:contentDescription="send_message"
-            android:src="@drawable/ic_action_send"
+            android:src="@drawable/amity_ic_action_send"
             app:layout_constraintBottom_toBottomOf="@+id/messageDarkTextview"
             app:layout_constraintEnd_toEndOf="parent" />
 
